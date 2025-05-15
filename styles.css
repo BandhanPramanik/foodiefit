@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.3em "Gabarito", sans-serif;
+  background-color: #F9EAE1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9em 1.5em;
+  background-color:#301E1E ;
+  /*#563637*/
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a, .logo a {
+  text-decoration: none;
+}
+
+.nav-links a:link, .logo a:link, .logo a:visited {
+  color:#e6cb90;
+}
+.nav-links a:visited {
+    color: #CBB564;
+}
+.nav-links a:hover, .logo a:hover {
+  color: #FDE17C;
+}
+.nav-links a:active, .logo a:active {
+  color: #cea882;
+}
+
+/* Responsive (hamburger menu behavior if needed) */
+/*@media (max-width: 768px) {
+  .nav-links {
+    display: none;*/
