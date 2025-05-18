@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Rammetto+One&display=swap');
 
 * {
   margin: 0;
@@ -9,19 +9,22 @@
 body {
   font: 1.3em "Gabarito", sans-serif;
   background-color: #F9EAE1;
+  color: #301E1E ;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content:;
   align-items: center;
   padding: 0.9em 1.5em;
-  background-color:#301E1E ;
+  background-color:#301E1E;
+  width: 100%;
   /*#563637*/
 }
 
 .logo {
   font-size: 1.5em;
+  margin-right: 0.75em;
 }
 
 .nav-links {
@@ -33,8 +36,11 @@ body {
 .nav-links a, .logo a {
   text-decoration: none;
 }
+.profile {
+  margin-left: auto;
+}
 
-.nav-links a:link, .logo a:link, .logo a:visited {
+.nav-links a:link, .logo a:link, .logo a:visited, .profile {
   color:#e6cb90;
 }
 .nav-links a:visited {
@@ -47,6 +53,20 @@ body {
   color: #cea882;
 }
 
+main {
+  text-align:center;
+}
+h1 {
+  font-family: 'Rammetto One', sans-serif;
+	font-weight: 400;
+  font-size: 4.5em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+  text-align:justify;
+}
 /* Responsive (hamburger menu behavior if needed) */
 /*@media (max-width: 768px) {
   .nav-links {
