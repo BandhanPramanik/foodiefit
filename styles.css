@@ -7,14 +7,14 @@
 }
 
 body {
-  font: 1.3em "Gabarito", sans-serif;
+  font: 1.3rem "Gabarito", sans-serif;
   background-color: #F9EAE1;
   color: #301E1E ;
 }
 
 .navbar {
   display: flex;
-  justify-content:;
+  justify-content: center;
   align-items: center;
   padding: 0.9em 1.5em;
   background-color:#301E1E;
@@ -23,7 +23,7 @@ body {
 }
 
 .logo {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-right: 0.75em;
 }
 
@@ -55,17 +55,21 @@ body {
 
 main {
   text-align:center;
+  margin-top: 2.5em;
 }
 h1 {
   font-family: 'Rammetto One', sans-serif;
 	font-weight: 400;
-  font-size: 4.5em;
+  font-size: 4.5rem;
+  margin-bottom: .5em;
 }
 
 p {
   font-weight: 400;
-  font-size: 1em;
-  text-align:justify;
+  font-size: 1.3rem;
+  text-align:center;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 /* Responsive (hamburger menu behavior if needed) */
 /*@media (max-width: 768px) {
