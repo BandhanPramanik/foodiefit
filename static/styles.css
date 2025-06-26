@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Rammetto+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.3rem "Gabarito", sans-serif;
+  background-color: #F9EAE1;
+  color: #301E1E;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9em 1.5em;
+  background-color:#301E1E;
+  width: 100%;
+  /*#563637*/
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 0.75em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a, .logo a {
+  text-decoration: none;
+}
+.profile-container {
+  margin-left: auto;
+  color:#e6cb90;
+  position: relative;
+}
+
+.profile-button {
+  background-color: transparent;
+  color: #e6cb90;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: inherit;
+  font-size: 1rem;
+  list-style: none;
+  border: 1px solid #e6cb90;
+}
+
+/* Remove the default triangle marker */
+.profile-button::marker,
+.profile-button::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown-icon {
+  font-size: 0.8em;
+  transition: transform 0.39s ease-in-out;
+}
+
+/* Rotate arrow when open */
+details[open] .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #301E1E;
+  min-width: 15rem;
+  border-radius: 0.4 rem;
+  box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.2);
+  z-index: 100;
+  margin-top: 0.5rem;
+  transition: opacity 0.5s cubic-bezier(0.35, 0, 0.65, 1);
+}
+
+.profile-dropdown, .profile-container[open] {
+  opacity: 1;
+}
+
+.profile-dropdown a {
+  display: block;
+  padding: 0.8em 1.2em;
+  
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.profile-dropdown a:link {
+  color: #e6cb90;
+}
+
+.profile-dropdown a:visited {
+    color: #CBB564;
+}
+
+.profile-dropdown a:hover {
+  background-color: #3d2929;
+  color: #FDE17C;
+}
+
+.profile-dropdown a:active {
+  background-color: #3d2929;
+  color: #cea882;
+}
+
+.profile-dropdown .logout {
+  border-top: 1px solid #412f2f;
+}
+
+.nav-links a:link, .logo a:link, .logo a:visited, .profile {
+  color:#e6cb90;
+}
+.nav-links a:visited {
+    color: #CBB564;
+}
+.nav-links a:hover, .logo a:hover {
+  color: #FDE17C;
+}
+.nav-links a:active, .logo a:active {
+  color: #cea882;
+}
+
+main {
+  text-align:center;
+  margin-top: 2.5em;
+  flex:1;
+}
+h1 {
+  font-family: 'Rammetto One', sans-serif;
+	font-weight: 400;
+  font-size: 4.5rem;
+  margin-bottom: .5em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align:center;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+footer
+{
+  display:flex;
+  width:100%;
+  padding: 0.5rem 0;
+  flex-direction:column;
+  justify-content: flex-end;
+  align-items:center;
+  color: #BBB;
+  background-color: #000;
+  margin-top: auto;
+  padding-bottom: 1.5rem;
+}
+
+footer a:link {
+  color: #BBB;
+}
+footer a:visited {
+  color: #9A9A9A;
+}
+footer a:hover {
+  color: #FFF;
+}
+footer a:active {
+  color: #959595;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.7em;
+  }
+  
+  .logo {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  .profile {
+    margin-left: 0;
+    margin-top: 0.5em;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.1rem;
+  }
+
+  .profile-container {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 1em;
+  }
+  
+  .profile-dropdown {
+    width: 100%;
+    position: static;
+    margin-top: 0.5em;
+  }
+}
+
+/* For even smaller screens */
+@media (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 1.25rem;
+  height: 0.2rem;
+  background-color: #e6cb90;
+  margin: 0.23em 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.7em;
+    position: relative;
+  }
+  
+  .logo {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    align-self: flex-start;
+    z-index: 2;
+
+  }
+  
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 1.25rem;
+    top: 1rem;
+    z-index: 2;
+  }
+  
+  .nav-links {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;    /* em because it relates to the text size within */
+    gap: 1em;            /* em for spacing between text elements */
+    animation: fadeIn 0.4s ease-in;
+  }
+  
+  .profile {
+    margin-left: 0;
+    margin-top: 0.5em;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.1rem;
+  }
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 15px;
+    animation: fadeIn 0.4s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
+
+/* Hamburger animation */
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(0.50rem) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-0.5rem) rotate(-45deg);
+}
+
