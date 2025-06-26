@@ -162,6 +162,7 @@ footer
   color: #BBB;
   background-color: #000;
   margin-top: auto;
+  padding-bottom:1.5rem;
 }
 
 footer a:link {
