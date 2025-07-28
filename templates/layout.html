@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodieFit</title>
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
     <nav class="navbar">
@@ -32,15 +32,14 @@
 </div>
     </nav>
     <main>
-	    <header><h1>ABOUT US</h1></header>
-	    <p>Lorem ipsum dolor sit amet, ad tempor aute eiusmod aliqua tempor, ex tempor ullamco sint commodo. Adipiscing exercitation esse quis eu lorem. Exercitation officia proident ut aliqua excepteur cupidatat velit, mollit ullamco esse nisi. Culpa cillum ad elit aute irure. Sunt nisi cillum eiusmod mollit commodo in mollit. Et duis duis sunt. Voluptate exercitation veniam duis in.</p>
-    </main>
+	    {% block body %}{% endblock %}
+	</main>
     <footer>
         <p>&copy;2025 FoodieFit. All rights reserved.</p>
         <p>
-            Contact: <a href="mailto:support@foodiefit.com">support@foodiefit.com</a>
+            Contact: <a href="mailto:foodiefit4u@gmail.com">foodiefit4u@gmail.com</a>
         </p>
     </footer>
-    <script src="script.js"></script>
+	<script src="{{ url_for('static', filename='/js/script.js') }}"></script>
 </body>
 </html>

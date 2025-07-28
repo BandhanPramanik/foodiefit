@@ -68,7 +68,7 @@ body {
 
 .dropdown-icon {
   font-size: 0.8em;
-  transition: transform 0.3s;
+  transition: transform 0.39s ease-in-out;
 }
 
 /* Rotate arrow when open */
@@ -81,11 +81,16 @@ details[open] .dropdown-icon {
   top: 100%;
   right: 0;
   background-color: #301E1E;
-  min-width: 180px;
-  border-radius: 4px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  min-width: 15rem;
+  border-radius: 0.4 rem;
+  box-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.2);
   z-index: 100;
-  margin-top: 5px;
+  margin-top: 0.5rem;
+  transition: opacity 0.5s cubic-bezier(0.35, 0, 0.65, 1);
+}
+
+.profile-dropdown, .profile-container[open] {
+  opacity: 1;
 }
 
 .profile-dropdown a {
@@ -162,7 +167,7 @@ footer
   color: #BBB;
   background-color: #000;
   margin-top: auto;
-  padding-bottom:1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 footer a:link {
