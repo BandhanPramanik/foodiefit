@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma-Inspired Expandable Card (Corrected)</title>
+    
+    <!-- Tailwind CSS for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Shoelace Components: JS Module and CSS Theme -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.14.0/cdn/shoelace.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.14.0/cdn/themes/light.css" />
+    
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* CORRECTED: Page background is light gray */
+            background-color: #f3f4f6; 
+        }
+
+        /* The main container for the sl-details component. */
+        .recipe-card {
+            background-color: #e5e7eb; /* CHANGED: The container now has the background color. */
+            border-radius: 0.75rem; /* 12px rounded corners */
+            box-shadow: none; /* No shadow when closed */
+            overflow: hidden; /* Ensures children are clipped by the rounded corners */
+            transition: box-shadow 0.2s ease-in-out; /* Smooth transition for the shadow */
+        }
+
+        /* WHEN OPEN: Apply the box-shadow to make it look like a card */
+        .recipe-card[open] {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        /* Target the component's internal 'summary' part */
+        sl-details.recipe-card::part(summary) {
+            padding: 0; 
+            /* CHANGED: The summary part is now transparent, inheriting its color from .recipe-card. */
+            background-color: transparent; 
+        }
+
+        /* Target the component's internal 'content' part */
+        sl-details.recipe-card::part(content) {
+            /* This was correct: Dark purple background */
+            background-color: #554477; 
+            color: white;
+            padding: 1.5rem;
+        }
+        
+        /* This is our custom bar that we place inside the summary slot */
+        .custom-summary-bar {
+            display: flex;
+            align-items: center;
+            width: 100%; 
+            padding: 1rem 1.5rem; 
+            cursor: pointer;
+            user-select: none; 
+        }
+        
+        /* Container for the heading and subheading on the left */
+        .text-group {
+            flex-grow: 1; 
+        }
+
+        .summary-heading {
+            font-size: 1.5rem;
+            font-weight: 700;
+            /* CORRECTED: Dark text for the gray background */
+            color: #1f2937; 
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .summary-subheading {
+            font-size: 0.9rem;
+            /* CORRECTED: Darker gray text for the gray background */
+            color: #4b5563; 
+            margin: 0.1rem 0 0 0;
+        }
+        
+        /* The text on the far right */
+        .summary-right-text {
+            font-size: 1rem;
+            font-weight: 500;
+            /* CORRECTED: Darker gray text for the gray background */
+            color: #4b5563; 
+            margin-left: 1rem; 
+            white-space: nowrap;
+        }
+
+        /* Target the chevron icon inside the component */
+        sl-details.recipe-card::part(summary-icon) {
+            margin-left: 0.5rem;
+             /* CORRECTED: Darker gray icon for the gray background */
+            color: #4b5563;
+        }
+
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="max-w-xl mx-auto">
+        
+        <sl-details class="recipe-card">
+            <!-- The summary slot now contains our custom bar -->
+            <div slot="summary" class="custom-summary-bar">
+                <div class="text-group">
+                    <h3 class="summary-heading">Lorem Ipsum Dolor</h3>
+                    <p class="summary-subheading">sit amet</p>
+                </div>
+                <span class="summary-right-text">hoigw</span>
+            </div>
+
+            <!-- This div no longer needs the .expanded-content class -->
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet gravida urna. Ut id magna est.
+                    Curabitur fringilla quam eu augue finibus efficitur. Phasellus bibendum justo a erat vestibulum
+                    mattis.
+                </p>
+                <p class="mt-4">
+                    This is the additional text that appears when the card is expanded.
+                    You can put ingredients, methods, or any long-form content here.
+                </p>
+            </div>
+        </sl-details>
+
+    </div>
+
+</body>
+</html>
+
+
+

@@ -4,5 +4,46 @@
 
 <h1> Cooking stuff up... </h1>
 
+<sl-details>
+  <div slot="summary" class="summary-container">
+    
+    <img src="https://via.placeholder.com/150" alt="Recipe Image" class="summary-image">
+
+    <div class="summary-details">
+      <strong>Recipe 1: Quick & Easy Tomato Soup</strong>
+      <span>Calories: 250 kcal | Cost: $2.50 per serving</span>
+    </div>
+
+    <div class="summary-actions">
+      <sl-button variant="primary" size="small">Add to List</sl-button>
+    </div>
+
+  </div>
+
+  <div class="details-content">
+    <h4>Ingredients:</h4>
+    <ul>
+      <li>4 ripe tomatoes</li>
+      <li>1 tbsp olive oil</li>
+    </ul>
+    <h4>Method:</h4>
+    <p>Step 1: Heat the oil in a large pan...</p>
+  </div>
+</sl-details>
+
+<sl-details>
+  <div slot="summary" class="section-header">
+    <h3>Chapter 1: The Foundation</h3>
+    <p>An introduction to core concepts.</p>
+  </div>
+
+  <div class="section-content">
+    <p>
+      This is the detailed text that is hidden at first. It appears
+      when you click on the section header above. The header itself remains
+      visible, and this content is shown directly below it.
+    </p>
+  </div>
+</sl-details>
 {% endblock %}
 
