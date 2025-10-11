@@ -1,0 +1,581 @@
+nonvegtype2.md : 
+{'🥚 1. Boiled Egg Salad': {'Ingredients': '2 boiled eggs\n'
+                                          '½ cucumber, sliced\n'
+                                          '½ tomato, diced\n'
+                                          'A handful of spinach\n'
+                                          '1 tsp olive oil\n'
+                                          'Salt & pepper',
+                           'Method': '1. Slice boiled eggs.\n'
+                                     '2. Toss all ingredients with olive oil, '
+                                     'salt, and pepper.',
+                           'Benefits': 'High in protein, low in carbs, helps '
+                                       'stabilize blood sugar.',
+                           'Calories': '~180 kcal',
+                           'Cost': '₹20–₹30'},
+ '🐟 2. Grilled Fish (Rohu/Pomfret)': {'Ingredients': '100g Rohu or Pomfret '
+                                                     'fish\n'
+                                                     '1 tsp mustard oil\n'
+                                                     'Turmeric, chili powder, '
+                                                     'lemon juice, salt',
+                                      'Method': '1. Marinate fish for 15 '
+                                                'mins.\n'
+                                                '2. Grill or pan-fry without '
+                                                'excess oil.',
+                                      'Benefits': 'Omega-3 fats, '
+                                                  'heart-healthy, controls '
+                                                  'inflammation.',
+                                      'Calories': '~200 kcal',
+                                      'Cost': '₹40–₹60'},
+ '🍗 3. Chicken Veg Soup': {'Ingredients': '100g boneless chicken\n'
+                                          '1 carrot, ½ onion, 1 tomato\n'
+                                          'Garlic, pepper, salt',
+                           'Method': '1. Boil chicken & veggies in 2 cups '
+                                     'water.\n'
+                                     '2. Add salt, pepper, garlic for flavor.',
+                           'Benefits': 'Filling, hydrating, improves '
+                                       'digestion, low GI.',
+                           'Calories': '~120 kcal',
+                           'Cost': '₹30–₹40'},
+ '🐓 4. Steamed Chicken Momos': {'Ingredients': '100g minced chicken\n'
+                                               '1 onion, cabbage, garlic\n'
+                                               'Wheat flour dough',
+                                'Method': '1. Make filling with chicken, veg & '
+                                          'spices.\n'
+                                          '2. Wrap in dough and steam.',
+                                'Benefits': 'Low fat if steamed, high protein, '
+                                            'fiber-rich.',
+                                'Calories': '~150 kcal (3–4 momos)',
+                                'Cost': '₹25–₹35'},
+ '🥚 5. Egg Bhurji (Oil-Free)': {'Ingredients': '2 eggs\n'
+                                               'Onion, tomato, green chili\n'
+                                               'Turmeric, salt',
+                                'Method': '1. Whisk eggs.\n'
+                                          '2. Cook veggies in non-stick pan, '
+                                          'add eggs.',
+                                'Benefits': 'Quick protein meal, good fats, '
+                                            'low sugar impact.',
+                                'Calories': '~170 kcal',
+                                'Cost': '₹15–₹20'},
+ '🐔 6. Chicken Stir Fry': {'Ingredients': '100g chicken breast\n'
+                                          'Bell peppers, beans, onion\n'
+                                          'Soy sauce (low-sodium), ginger, '
+                                          'garlic',
+                           'Method': '1. Sauté chicken & veggies in 1 tsp '
+                                     'oil.\n'
+                                     '2. Add soy, spices, cook for 10 mins.',
+                           'Benefits': 'Balanced macros, fiber-rich, helps '
+                                       'weight control.',
+                           'Calories': '~220 kcal',
+                           'Cost': '₹40–₹50'},
+ '🐟 7. Sardine Curry (Light)': {'Ingredients': '2 sardines\n'
+                                               'Tomato, onion, turmeric, '
+                                               'mustard oil\n'
+                                               'Garlic, green chili',
+                                'Method': '1. Cook onion, tomato, spices.\n'
+                                          '2. Add fish, simmer 10–15 mins.',
+                                'Benefits': 'Calcium-rich, omega-3s, improves '
+                                            'cholesterol.',
+                                'Calories': '~180 kcal',
+                                'Cost': '₹20–₹30'},
+ '🥚 8. Egg-White Omelette': {'Ingredients': '3 egg whites\n'
+                                            'Onion, tomato, spinach\n'
+                                            'Salt, pepper',
+                             'Method': '1. Beat egg whites with veg.\n'
+                                       '2. Cook on non-stick pan.',
+                             'Benefits': 'Cholesterol-free, pure protein, low '
+                                         'fat.',
+                             'Calories': '~100 kcal',
+                             'Cost': '₹10–₹15'},
+ '🍗 9. Chicken Lettuce Wraps': {'Ingredients': '100g chicken mince\n'
+                                               'Onion, capsicum\n'
+                                               'Lettuce leaves',
+                                'Method': '1. Sauté chicken with veg & '
+                                          'spices.\n'
+                                          '2. Use lettuce as a wrap.',
+                                'Benefits': 'No carbs from bread, low-GI, high '
+                                            'fiber.',
+                                'Calories': '~180 kcal',
+                                'Cost': '₹35–₹45'},
+ '🐟 10. Tuna or Mackerel Salad': {'Ingredients': '1 small can tuna or 100g '
+                                                 'mackerel\n'
+                                                 'Cucumber, tomato, lemon\n'
+                                                 'Olive oil, salt',
+                                  'Method': '1. Mix fish with chopped veg & '
+                                            'lemon juice.',
+                                  'Benefits': 'Brain-boosting fats, low-carb, '
+                                              'reduces inflammation.',
+                                  'Calories': '~150–200 kcal',
+                                  'Cost': '₹40–₹50'}}
+normaltype1nonveg.md : 
+{'1. Boiled Egg Chaat': {'Ingredients': 'Eggs – 2 (₹14)\n'
+                                        'Onion, tomato, coriander, lemon (₹6)\n'
+                                        'Spices – salt, chaat masala',
+                         'Method': '1. Boil eggs, slice.\n'
+                                   '2. Top with chopped veggies and masala.',
+                         'Benefits': 'High protein, low carb snack',
+                         'Calories': '~150',
+                         'Cost': '₹20'},
+ '2. Grilled Chicken (Tava or Oven)': {'Ingredients': 'Chicken breast – 100g '
+                                                      '(₹25)\n'
+                                                      'Curd – 1 tbsp, spices – '
+                                                      'turmeric, chili, '
+                                                      'garlic\n'
+                                                      'Lemon juice – 1 tsp',
+                                       'Method': '1. Marinate chicken in '
+                                                 'spices + curd for 30 mins.\n'
+                                                 '2. Grill on tawa or oven '
+                                                 'until cooked.',
+                                       'Benefits': 'Lean protein, no carbs, '
+                                                   'satisfying',
+                                       'Calories': '~180',
+                                       'Cost': '₹25'},
+ '3. Fish Tikka (Pan Fried)': {'Ingredients': 'Boneless fish (Rohu/Katla) – '
+                                              '100g (₹20)\n'
+                                              'Mustard, chili, garlic paste, '
+                                              'turmeric, salt\n'
+                                              'Mustard oil – 1 tsp',
+                               'Method': '1. Marinate fish with spices for 15 '
+                                         'mins.\n'
+                                         '2. Shallow fry both sides until '
+                                         'golden.',
+                               'Benefits': 'Rich in Omega-3, low carb',
+                               'Calories': '~190',
+                               'Cost': '₹20–25'},
+ '4. Egg Curry (without oil)': {'Ingredients': 'Eggs – 2 (₹14)\n'
+                                               'Onion, tomato, garlic – (₹6)\n'
+                                               'Spices – cumin, chili, '
+                                               'turmeric',
+                                'Method': '1. Sauté onions, garlic (dry roast '
+                                          'or very little oil).\n'
+                                          '2. Add tomatoes and spices.\n'
+                                          '3. Add boiled eggs. Simmer for 5 '
+                                          'mins.',
+                                'Benefits': 'High protein, low fat, sugar '
+                                            'friendly',
+                                'Calories': '~180',
+                                'Cost': '₹20'},
+ '5. Chicken Soup (Clear)': {'Ingredients': 'Chicken with bone – 100g (₹20)\n'
+                                            'Ginger, garlic, pepper, salt\n'
+                                            'Onion, coriander, lemon',
+                             'Method': '1. Boil chicken with aromatics for 20 '
+                                       'mins.\n'
+                                       '2. Strain or keep as-is, serve hot.',
+                             'Benefits': 'Immune-boosting, filling without '
+                                         'carbs',
+                             'Calories': '~100',
+                             'Cost': '₹18–20'},
+ '6. Egg White Omelette with Veggies': {'Ingredients': 'Egg whites – from 3 '
+                                                       'eggs (₹10)\n'
+                                                       'Onion, tomato, spinach '
+                                                       '(₹5)\n'
+                                                       'Spices, olive oil – ½ '
+                                                       'tsp',
+                                        'Method': '1. Beat egg whites.\n'
+                                                  '2. Cook with veggies on '
+                                                  'non-stick pan.',
+                                        'Benefits': 'Zero cholesterol, lean '
+                                                    'protein',
+                                        'Calories': '~100',
+                                        'Cost': '₹12–15'},
+ '7. Chicken Lettuce Wraps': {'Ingredients': 'Minced chicken – 100g (₹25)\n'
+                                             'Onion, chili, garlic (₹5)\n'
+                                             'Lettuce leaves – few (₹5)',
+                              'Method': '1. Cook chicken with onion, chili, '
+                                        'garlic.\n'
+                                        '2. Serve hot in lettuce cups.',
+                              'Benefits': 'Low carb, high flavor, great snack '
+                                          'or light dinner',
+                              'Calories': '~170',
+                              'Cost': '₹25'},
+ '8. Tandoori Boiled Egg Skewers': {'Ingredients': 'Eggs – 2 (₹14)\n'
+                                                   'Tandoori masala + curd – 1 '
+                                                   'tbsp\n'
+                                                   'Lemon juice',
+                                    'Method': '1. Mix boiled eggs with '
+                                              'marinade.\n'
+                                              '2. Roast in oven or on pan with '
+                                              'skewers.',
+                                    'Benefits': 'Great party snack, low '
+                                                'glycemic',
+                                    'Calories': '~160',
+                                    'Cost': '₹18–20'},
+ '9. Fish and Spinach Stir-fry': {'Ingredients': 'Small boneless fish or '
+                                                 'pieces – 100g (₹20)\n'
+                                                 'Spinach – 1 cup (₹5)\n'
+                                                 'Garlic, green chili',
+                                  'Method': '1. Sauté garlic, chili, spinach.\n'
+                                            '2. Add fish and cook till done.',
+                                  'Benefits': 'Lean protein + iron',
+                                  'Calories': '~180',
+                                  'Cost': '₹20–22'},
+ '10. Chicken Veggie Egg Roll (no maida)': {'Ingredients': 'Egg – 1 (₹7)\n'
+                                                           'Chicken – 50g '
+                                                           'shredded (₹10)\n'
+                                                           'Onion, cabbage – '
+                                                           '(₹5)\n'
+                                                           'Lettuce or whole '
+                                                           'wheat roti',
+                                            'Method': '1. Scramble egg with '
+                                                      'chicken + veggies.\n'
+                                                      '2. Wrap in lettuce leaf '
+                                                      'or thin roti.',
+                                            'Benefits': 'Low GI, portable, '
+                                                        'high protein',
+                                            'Calories': '~160',
+                                            'Cost': '₹20'}}
+normaltype1veg.md : 
+{'1. Lauki (Bottle Gourd) Thepla': {'Ingredients': 'Grated lauki – 1 cup '
+                                                   '(₹10)\n'
+                                                   'Whole wheat flour – ¾ cup '
+                                                   '(₹8)\n'
+                                                   'Ginger, green chili, '
+                                                   'turmeric, salt\n'
+                                                   'Oil – 1 tsp',
+                                    'Method': '1. Squeeze water from lauki '
+                                              'slightly.\n'
+                                              '2. Mix with flour and spices to '
+                                              'make dough.\n'
+                                              '3. Roll and roast on a '
+                                              'non-stick pan with little oil.',
+                                    'Benefits': '✔ Low glycemic index\n'
+                                                '✔ Hydrating and fibrous\n'
+                                                '✔ Good for digestion',
+                                    'Calories': '~130 per thepla',
+                                    'Cost': '₹10–12'},
+ '2. Oats Vegetable Cutlets': {'Ingredients': 'Oats – ¾ cup (₹12)\n'
+                                              'Grated carrot, beans, capsicum '
+                                              '– 1 cup (₹10)\n'
+                                              'Chili, ginger, salt, garam '
+                                              'masala\n'
+                                              'Oil – 1 tsp',
+                               'Method': '1. Roast oats dry, then grind '
+                                         'coarsely.\n'
+                                         '2. Mix with veggies and spices.\n'
+                                         '3. Shape into cutlets and shallow '
+                                         'fry or bake.',
+                               'Benefits': '✔ High fiber, aids sugar control\n'
+                                           '✔ Keeps you full longer\n'
+                                           '✔ No maida or rice',
+                               'Calories': '~140 per 2 cutlets',
+                               'Cost': '₹12–15'},
+ '3. Mixed Vegetable Soup': {'Ingredients': 'Mixed veggies (carrot, lauki, '
+                                            'beans, tomato) – 1.5 cups (₹12)\n'
+                                            'Garlic – 2 pods, pepper, salt\n'
+                                            'Water – 2 cups',
+                             'Method': '1. Pressure cook all veggies.\n'
+                                       '2. Blend or mash, then boil with '
+                                       'seasoning.\n'
+                                       '3. Add pepper and coriander.',
+                             'Benefits': '✔ Detox-friendly, light\n'
+                                         '✔ Very low calorie\n'
+                                         '✔ Helps manage appetite',
+                             'Calories': '~80 per bowl',
+                             'Cost': '₹10–12'},
+ '4. Sprouted Moong Salad': {'Ingredients': 'Moong sprouts – 1 cup (₹15)\n'
+                                            'Onion, tomato, cucumber – chopped '
+                                            '(₹10)\n'
+                                            'Lemon juice, coriander, chili',
+                             'Method': '1. Lightly steam sprouts (optional).\n'
+                                       '2. Mix with veggies and lemon juice.',
+                             'Benefits': '✔ High in protein & fiber\n'
+                                         '✔ Great for mid-meal cravings\n'
+                                         '✔ Promotes slow sugar release',
+                             'Calories': '~130',
+                             'Cost': '₹12–15'},
+ '5. Palak Besan Cheela (Spinach Pancake)': {'Ingredients': 'Besan – ¾ cup '
+                                                            '(₹10)\n'
+                                                            'Spinach – 1 cup '
+                                                            'chopped (₹5)\n'
+                                                            'Cumin, chili, '
+                                                            'ginger, salt\n'
+                                                            'Oil – 1 tsp',
+                                             'Method': '1. Mix all ingredients '
+                                                       'with water into a '
+                                                       'batter.\n'
+                                                       '2. Pour like a dosa on '
+                                                       'non-stick pan.\n'
+                                                       '3. Cook both sides '
+                                                       'with minimal oil.',
+                                             'Benefits': '✔ Low-carb '
+                                                         'breakfast/snack\n'
+                                                         '✔ Iron-rich, '
+                                                         'diabetic-friendly\n'
+                                                         '✔ Easy to digest',
+                                             'Calories': '~140',
+                                             'Cost': '₹10–12'}}
+normaltype2.md : 
+{'1. Moong Dal Chilla (Savory Lentil Pancakes)': {'Calories': '~120 per chilla',
+                                                  'Cost': '₹20 per serving',
+                                                  'Ingredients': '(For 2 '
+                                                                 'chillas)\n'
+                                                                 '½ cup yellow '
+                                                                 'moong dal '
+                                                                 '(soaked 2-3 '
+                                                                 'hrs)\n'
+                                                                 '1 green '
+                                                                 'chili\n'
+                                                                 '½ inch '
+                                                                 'ginger\n'
+                                                                 '1 small '
+                                                                 'onion, '
+                                                                 'chopped\n'
+                                                                 'Fresh '
+                                                                 'coriander, '
+                                                                 'chopped\n'
+                                                                 'Salt to '
+                                                                 'taste\n'
+                                                                 '½ tsp '
+                                                                 'turmeric\n'
+                                                                 '1 tsp oil '
+                                                                 '(for '
+                                                                 'cooking)',
+                                                  'Method': '1. Blend soaked '
+                                                            'moong dal with '
+                                                            'chili and ginger '
+                                                            'into a smooth '
+                                                            'batter.\n'
+                                                            '2. Add onion, '
+                                                            'coriander, salt, '
+                                                            'and turmeric.\n'
+                                                            '3. Heat a '
+                                                            'non-stick tawa, '
+                                                            'pour batter, '
+                                                            'spread like a '
+                                                            'dosa.\n'
+                                                            '4. Cook on both '
+                                                            'sides with '
+                                                            'minimal oil.',
+                                                  'Benefits': 'High in protein '
+                                                              'and fiber\n'
+                                                              'Helps in blood '
+                                                              'sugar '
+                                                              'regulation\n'
+                                                              'Keeps you full '
+                                                              'longer'},
+ '2. Lauki (Bottle Gourd) Soup': {'Calories': '~90 per bowl',
+                                  'Cost': '₹15 per serving',
+                                  'Ingredients': '1 cup chopped lauki\n'
+                                                 '1 small onion\n'
+                                                 '2 garlic cloves\n'
+                                                 '½ tsp cumin\n'
+                                                 'Salt and pepper to taste\n'
+                                                 '½ tsp olive oil',
+                                  'Method': '1. Sauté onion, garlic, and cumin '
+                                            'in olive oil.\n'
+                                            '2. Add lauki and 1½ cups water. '
+                                            'Cook until soft.\n'
+                                            '3. Blend and strain (optional).\n'
+                                            '4. Season with salt and pepper.',
+                                  'Benefits': 'Very low in calories and carbs\n'
+                                              'Hydrating and soothing\n'
+                                              'Good for weight loss and sugar '
+                                              'control'},
+ '3. Mixed Veg Stir-Fry with Tofu': {'Calories': '~150 per serving',
+                                     'Cost': '₹30 per serving',
+                                     'Ingredients': '½ cup chopped carrots\n'
+                                                    '½ cup capsicum\n'
+                                                    '½ cup broccoli\n'
+                                                    '½ cup paneer/tofu cubes\n'
+                                                    '1 tsp soy sauce (low '
+                                                    'sodium)\n'
+                                                    '1 tsp olive oil\n'
+                                                    'Salt, pepper, chili '
+                                                    'flakes',
+                                     'Method': '1. Heat oil, stir-fry all '
+                                               'vegetables.\n'
+                                               '2. Add tofu/paneer, soy sauce, '
+                                               'and spices.\n'
+                                               '3. Sauté for 5-7 minutes.',
+                                     'Benefits': 'Rich in fiber and '
+                                                 'antioxidants\n'
+                                                 'Low GI\n'
+                                                 'High protein keeps blood '
+                                                 'sugar stable'},
+ '4. Oats Vegetable Upma': {'Calories': '~180 per serving',
+                            'Cost': '₹20 per serving',
+                            'Ingredients': '½ cup rolled oats\n'
+                                           '½ cup chopped vegetables (beans, '
+                                           'carrot, peas)\n'
+                                           '1 tsp mustard seeds\n'
+                                           'Curry leaves\n'
+                                           '1 green chili\n'
+                                           '½ tsp oil\n'
+                                           'Salt',
+                            'Method': '1. Dry roast oats and keep aside.\n'
+                                      '2. Sauté mustard seeds, curry leaves, '
+                                      'chili in oil.\n'
+                                      '3. Add vegetables, cook till soft.\n'
+                                      '4. Add oats and ½ cup water, cook for 5 '
+                                      'minutes.',
+                            'Benefits': 'Oats are rich in soluble fiber '
+                                        '(beta-glucan)\n'
+                                        'Slow down sugar absorption\n'
+                                        'Digestive friendly and filling'},
+ '5. Cucumber & Moong Sprout Salad': {'Calories': '~100 per bowl',
+                                      'Cost': '₹15 per serving',
+                                      'Ingredients': '½ cup moong sprouts\n'
+                                                     '1 small cucumber\n'
+                                                     '½ tomato\n'
+                                                     'Lemon juice\n'
+                                                     'Salt, black pepper\n'
+                                                     'A pinch of chaat masala',
+                                      'Method': '1. Mix sprouts with finely '
+                                                'chopped cucumber and tomato.\n'
+                                                '2. Add lemon juice, salt, '
+                                                'pepper, and chaat masala.\n'
+                                                '3. Serve fresh.',
+                                      'Benefits': 'No cooking, no oil\n'
+                                                  'Rich in enzymes, fiber, and '
+                                                  'protein\n'
+                                                  'Hydrating and supports gut '
+                                                  'health'}}
+unspectypenonveg.md : 
+{'1. Grilled Chicken Salad': {'Ingredients': '100g boneless chicken breast, '
+                                             'lettuce, cucumber, tomato, '
+                                             'lemon, black pepper, olive oil '
+                                             '(1 tsp)',
+                              'Method': 'Grill chicken, chop veggies, mix all '
+                                        'with lemon juice & pepper.',
+                              'Benefits': 'High protein, low carb, supports '
+                                          'fat loss.',
+                              'Calories': '~180 kcal',
+                              'Cost': '₹60–₹70'},
+ '2. Egg White Omelette': {'Ingredients': '4 egg whites, onion, spinach, '
+                                          'tomato, green chilies, 1 tsp olive '
+                                          'oil',
+                           'Method': 'Beat egg whites, sauté veggies, pour '
+                                     'eggs, cook both sides.',
+                           'Benefits': 'High protein, low fat, improves '
+                                       'satiety.',
+                           'Calories': '~120 kcal',
+                           'Cost': '₹25–₹30'},
+ '3. Tandoori Fish (Air-Fried or Grilled)': {'Ingredients': '100g fish '
+                                                            '(rohu/basa), '
+                                                            'curd, lemon, '
+                                                            'ginger garlic '
+                                                            'paste, tandoori '
+                                                            'masala',
+                                             'Method': 'Marinate, grill or '
+                                                       'air-fry until crisp.',
+                                             'Benefits': 'Rich in omega-3, '
+                                                         'good for heart and '
+                                                         'metabolism.',
+                                             'Calories': '~200 kcal',
+                                             'Cost': '₹80–₹100'},
+ '4. Chicken Stir Fry': {'Ingredients': '100g chicken breast, bell peppers, '
+                                        'onion, garlic, soy sauce (low '
+                                        'sodium), olive oil',
+                         'Method': 'Stir-fry chicken and veggies in 1 tsp oil, '
+                                   'season.',
+                         'Benefits': 'Nutrient-rich, low calorie, filling.',
+                         'Calories': '~220 kcal',
+                         'Cost': '₹70–₹80'},
+ '5. Boiled Egg Chaat': {'Ingredients': '2 boiled eggs, onion, tomato, '
+                                        'coriander, lemon, chaat masala',
+                         'Method': 'Slice eggs, mix all ingredients.',
+                         'Benefits': 'High protein, zero oil, snack friendly.',
+                         'Calories': '~140 kcal',
+                         'Cost': '₹20–₹25'},
+ '6. Chicken Cabbage Soup': {'Ingredients': 'Chicken (100g), cabbage, garlic, '
+                                            'carrot, onion, pepper, salt',
+                             'Method': 'Boil everything together, season.',
+                             'Benefits': 'Detox-friendly, fiber-rich, filling.',
+                             'Calories': '~160 kcal',
+                             'Cost': '₹40–₹50'},
+ '7. Tuna Lettuce Wraps': {'Ingredients': '1 small tuna can (in water), '
+                                          'lettuce leaves, onion, lemon juice, '
+                                          'pepper',
+                           'Method': 'Mix tuna with spices, stuff in lettuce '
+                                     'leaves.',
+                           'Benefits': 'Low carb, high protein, refreshing.',
+                           'Calories': '~180 kcal',
+                           'Cost': '₹60–₹70'},
+ '8. Egg Chicken Bhurji': {'Ingredients': '1 egg + 50g chicken mince, onion, '
+                                          'tomato, green chilies, spices',
+                           'Method': 'Sauté all ingredients, scramble '
+                                     'together.',
+                           'Benefits': 'Packed with protein, ideal for '
+                                       'lunch/dinner.',
+                           'Calories': '~220 kcal',
+                           'Cost': '₹50–₹60'},
+ '9. Boiled Chicken with Herbs': {'Ingredients': 'Chicken breast (100g), '
+                                                 'garlic, pepper, bay leaf, '
+                                                 'lemon',
+                                  'Method': 'Boil with spices until tender.',
+                                  'Benefits': 'Fat-free, lean protein.',
+                                  'Calories': '~170 kcal',
+                                  'Cost': '₹50–₹60'},
+ '10. Egg and Veggie Muffins (Baked)': {'Ingredients': '2 eggs, chopped '
+                                                       'spinach, tomato, '
+                                                       'onion, bell pepper',
+                                        'Method': 'Mix and pour into muffin '
+                                                  'tray, bake.',
+                                        'Benefits': 'Meal-prep friendly, low '
+                                                    'calorie, high protein.',
+                                        'Calories': '~150 kcal',
+                                        'Cost': '₹30–₹40'}}
+unspectypeveg.md : 
+{'1. Moong Dal Chilla (Savory Pancakes)': {'Ingredients': '½ cup moong dal '
+                                                          '(soaked), green '
+                                                          'chilies, ginger, '
+                                                          'coriander, cumin, '
+                                                          'salt, 1 tsp oil',
+                                           'Method': 'Grind soaked dal with '
+                                                     'spices, spread batter on '
+                                                     'a hot pan, cook both '
+                                                     'sides with minimal oil.',
+                                           'Benefits': 'High in protein and '
+                                                       'fiber, low in '
+                                                       'calories, keeps you '
+                                                       'full.',
+                                           'Calories': '~120 per chilla',
+                                           'Cost': '₹15–₹20'},
+ '2. Vegetable Upma (Rava Upma with Veggies)': {'Ingredients': '½ cup semolina '
+                                                               '(rava), '
+                                                               'chopped '
+                                                               'carrot, beans, '
+                                                               'onion, mustard '
+                                                               'seeds, curry '
+                                                               'leaves, 1 tsp '
+                                                               'oil',
+                                                'Method': 'Roast rava, sauté '
+                                                          'veggies and spices, '
+                                                          'add water, mix '
+                                                          'rava, cook until '
+                                                          'fluffy.',
+                                                'Benefits': 'Good fiber '
+                                                            'content, controls '
+                                                            'hunger, quick to '
+                                                            'prepare.',
+                                                'Calories': '~180 kcal per '
+                                                            'serving',
+                                                'Cost': '₹20–₹25'},
+ '3. Oats and Vegetable Soup': {'Ingredients': '2 tbsp oats, carrot, beans, '
+                                               'cabbage, garlic, pepper, water',
+                                'Method': 'Boil chopped veggies and oats, '
+                                          'season with pepper and salt, simmer '
+                                          'until thick.',
+                                'Benefits': 'Fills you up, low glycemic index, '
+                                            'boosts digestion.',
+                                'Calories': '~100–120 kcal',
+                                'Cost': '₹15–₹20'},
+ '4. Cabbage and Carrot Stir Fry': {'Ingredients': 'Shredded cabbage and '
+                                                   'carrot, mustard seeds, '
+                                                   'green chilies, turmeric, 1 '
+                                                   'tsp oil',
+                                    'Method': 'Sauté mustard seeds, add '
+                                              'veggies and stir-fry with '
+                                              'spices until soft.',
+                                    'Benefits': 'Very low in calories, high '
+                                                'fiber, supports digestion and '
+                                                'fat loss.',
+                                    'Calories': '~90–100 kcal',
+                                    'Cost': '₹10–₹15'},
+ '5. Sprouted Moong Salad': {'Ingredients': '½ cup sprouted green gram, '
+                                            'chopped tomato, onion, lemon '
+                                            'juice, coriander, black salt',
+                             'Method': 'Mix all ingredients and serve fresh.',
+                             'Benefits': 'Rich in protein, vitamins, and '
+                                         'antioxidants. No cooking required.',
+                             'Calories': '~100 kcal',
+                             'Cost': '₹15–₹20'}}
